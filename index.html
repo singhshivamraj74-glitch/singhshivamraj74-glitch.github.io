@@ -3,84 +3,72 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gov All Info With Shivam – Sarkari Job | Result | Admit Card | Yojana</title>
+<title>Gov Info With Shivam</title>
 
 <style>
-body{
-    margin:0;
+body {
+    margin: 0;
     font-family: Arial, sans-serif;
-    background:#f4f4f4;
+    background: url('https://images.unsplash.com/photo-1529070538774-1843cb3265df') no-repeat center center/cover;
+    color: white;
 }
 
-header{
-    background:black;
-    color:white;
-    padding:15px;
-    text-align:center;
-    font-size:22px;
-    font-weight:bold;
+/* Header */
+header {
+    background: rgba(0,0,0,0.8);
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
 }
 
-.container{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:30px;
-    margin:30px;
+/* Container */
+.container {
+    padding: 20px;
 }
 
-.section{
-    background:white;
-    width:400px;
-    border:3px solid red;
+/* Card Design */
+.card {
+    background: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
 }
 
-.section h2{
-    margin:0;
-    background:red;
-    color:white;
-    padding:12px;
-    text-align:center;
+/* Titles */
+.card h2 {
+    background: red;
+    padding: 10px;
+    text-align: center;
+    margin: -15px -15px 10px -15px;
 }
 
-.section ul{
-    list-style:none;
-    margin:0;
-    padding:15px;
+/* Links */
+.card a {
+    display: block;
+    color: lightblue;
+    padding: 8px;
+    text-decoration: none;
+    border-bottom: 1px solid gray;
 }
 
-.section ul li{
-    padding:10px 0;
-    border-bottom:1px solid #ddd;
+.card a:hover {
+    color: yellow;
 }
 
-.section ul li a{
-    text-decoration:none;
-    color:#0044cc;
-    font-size:16px;
-    font-weight:500;
-}
-
-.section ul li a:hover{
-    color:red;
-}
-
-footer{
-    background:black;
-    color:white;
-    text-align:center;
-    padding:10px;
-    margin-top:20px;
-    font-size:14px;
-}
-@media(max-width:900px){
-    .section{
-        width:90%;
-    }
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0,0,0,0.8);
+    margin-top: 20px;
 }
 </style>
-
 </head>
+
 <body>
 
 <header>
@@ -90,46 +78,49 @@ Gov All Info With Shivam – Sarkari Job | Result | Admit Card | Yojana
 <div class="container">
 
 <!-- RESULTS -->
-<div class="section">
+<div class="card">
 <h2>RESULTS</h2>
-<ul>
-<li><a href="https://ugcnet.nta.nic.in/" target="_blank">UGC NET Result</a></li>
-<li><a href="https://ssc.nic.in/Portal/Apply" target="_blank">SSC CGL / CHSL Result</a></li>
-<li><a href="https://www.rrbcdg.gov.in/" target="_blank">Railway Results</a></li>
-<li><a href="https://uppbpb.gov.in/" target="_blank">UP Police Result</a></li>
-<li><a href="https://www.ibps.in/" target="_blank">IBPS Bank Result</a></li>
-<li><a href="https://ctet.nic.in/" target="_blank">CTET Result</a></li>
-</ul>
+<a href="#">UGC NET Result</a>
+<a href="#">SSC CGL / CHSL Result</a>
+<a href="#">Railway Result</a>
+<a href="#">UP Police Result</a>
+<a href="#">IBPS Bank Result</a>
+<a href="#">CTET Result</a>
 </div>
 
 <!-- ADMIT CARD -->
-<div class="section">
+<div class="card">
 <h2>ADMIT CARD</h2>
-<ul>
-<li><a href="https://ssc.nic.in/Portal/Apply" target="_blank">SSC Admit Card</a></li>
-<li><a href="https://www.rrbcdg.gov.in/" target="_blank">Railway Admit Card</a></li>
-<li><a href="https://uppbpb.gov.in/" target="_blank">UP Police Admit Card</a></li>
-<li><a href="https://ctet.nic.in/" target="_blank">CTET Admit Card</a></li>
-<li><a href="https://upsc.gov.in/" target="_blank">NDA Admit Card</a></li>
-</ul>
+<a href="#">SSC Admit Card</a>
+<a href="#">Railway Admit Card</a>
+<a href="#">UP Police Admit Card</a>
+<a href="#">CTET Admit Card</a>
+<a href="#">NDA Admit Card</a>
 </div>
 
 <!-- LATEST JOBS -->
-<div class="section">
+<div class="card">
 <h2>LATEST JOBS</h2>
-<ul>
-<li><a href="https://ssc.nic.in/Portal/Apply" target="_blank">SSC Recruitment</a></li>
-<li><a href="https://www.rrbcdg.gov.in/" target="_blank">Railway Recruitment</a></li>
-<li><a href="https://indiapostgdsonline.gov.in/" target="_blank">India Post GDS</a></li>
-<li><a href="https://joinindianarmy.nic.in/" target="_blank">Indian Army Jobs</a></li>
-<li><a href="https://www.ibps.in/" target="_blank">Bank PO / Clerk</a></li>
-</ul>
+<a href="#">SSC Recruitment 2026</a>
+<a href="#">Railway Recruitment</a>
+<a href="#">UP Police Vacancy</a>
+<a href="#">Bank Jobs</a>
+<a href="#">Army Jobs</a>
+</div>
+
+<!-- YOJANA -->
+<div class="card">
+<h2>YOJANA</h2>
+<a href="#">PM Awas Yojana</a>
+<a href="#">Free Laptop Yojana</a>
+<a href="#">Scholarship Scheme</a>
+<a href="#">E Shram Card</a>
 </div>
 
 </div>
 
 <footer>
-© 2026 Gov All Info With Shivam | All Rights Reserved
+© 2026 Gov Info With Shivam | All Rights Reserved
 </footer>
 
 </body>
