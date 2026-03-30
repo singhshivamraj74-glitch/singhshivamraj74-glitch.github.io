@@ -8,8 +8,8 @@
 <style>
 body {
     margin: 0;
-    font-family: Arial;
-    background: #f5f5f5;
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
 }
 
 /* HEADER */
@@ -18,81 +18,50 @@ header {
     color: white;
     text-align: center;
     padding: 20px;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: bold;
 }
 
-/* HERO */
-.hero {
-    background: url('https://images.unsplash.com/photo-1581093588401-22c1c0d9d2f9') no-repeat center/cover;
-    padding: 60px;
-    color: white;
-    text-align: center;
-}
-
-.hero h1 {
-    font-size: 40px;
-}
-
-/* MAIN BOX */
+/* GRID */
 .section {
     padding: 30px;
 }
 
-/* CARDS */
 .grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+/* CARD */
 .card {
     background: white;
     margin: 15px;
     padding: 20px;
-    width: 280px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px gray;
-    text-align: center;
+    width: 320px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
 .card h2 {
+    text-align: center;
     color: #004aad;
 }
 
+/* LINKS */
 .card a {
     display: block;
     padding: 8px;
     text-decoration: none;
     color: black;
+    border-bottom: 1px solid #ddd;
 }
 
 .card a:hover {
     color: red;
 }
 
-/* LONG SECTION */
-.long-section {
-    background: white;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.long-section h2 {
-    color: #ff6600;
-}
-
-/* BUTTON */
-.btn {
-    background: #ff6600;
-    color: white;
-    padding: 10px 15px;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 10px;
-}
-
+/* FOOTER */
 footer {
     background: black;
     color: white;
@@ -109,72 +78,94 @@ footer {
 ROJGAR PORTAL – Sarkari Job | Result | Admit Card | Yojana
 </header>
 
-<div class="hero">
-<h1>Find Your Dream Job & Latest Sarkari Updates</h1>
-<a class="btn" href="#">Search Jobs</a>
-</div>
-
-<!-- TOP 3 SECTION -->
 <div class="section">
 <div class="grid">
 
+<!-- SARKARI JOBS -->
 <div class="card">
 <h2>Sarkari Jobs</h2>
-<a href="https://ssc.nic.in/" target="_blank">SSC Jobs</a>
-<a href="https://www.rrbcdg.gov.in/" target="_blank">Railway Jobs</a>
-<a href="https://ibps.in/" target="_blank">Bank Jobs</a>
+
+<a href="https://ssc.nic.in/" target="_blank">SSC CGL 2026 Recruitment</a>
+<a href="https://ssc.nic.in/" target="_blank">SSC CHSL Vacancy</a>
+<a href="https://ssc.nic.in/" target="_blank">SSC GD Constable</a>
+
+<a href="https://www.rrbcdg.gov.in/" target="_blank">Railway Group D Vacancy</a>
+<a href="https://www.rrbcdg.gov.in/" target="_blank">RRB NTPC Recruitment</a>
+
+<a href="https://ibps.in/" target="_blank">IBPS PO / Clerk Vacancy</a>
+<a href="https://ibps.in/" target="_blank">SBI Clerk / PO Jobs</a>
+
+<a href="https://uppbpb.gov.in/" target="_blank">UP Police Constable</a>
+<a href="https://uppbpb.gov.in/" target="_blank">UP SI Vacancy</a>
+
+<a href="https://joinindianarmy.nic.in/" target="_blank">Indian Army Recruitment</a>
+<a href="https://navy.gov.in/" target="_blank">Indian Navy Jobs</a>
+<a href="https://indianairforce.nic.in/" target="_blank">Air Force Vacancy</a>
+
+<a href="https://www.upsc.gov.in/" target="_blank">UPSC Civil Services</a>
+<a href="https://www.upsc.gov.in/" target="_blank">UPSC NDA / CDS</a>
+
+<a href="https://www.bpsc.bih.nic.in/" target="_blank">BPSC Jobs</a>
+<a href="https://www.ossc.gov.in/" target="_blank">State Govt Jobs</a>
+
 </div>
 
+<!-- RESULTS -->
 <div class="card">
 <h2>Results</h2>
-<a href="https://ssc.nic.in/" target="_blank">SSC Result</a>
-<a href="https://nta.ac.in/" target="_blank">NTA Result</a>
+
+<a href="https://ssc.nic.in/" target="_blank">SSC CGL Result</a>
+<a href="https://ssc.nic.in/" target="_blank">SSC CHSL Result</a>
+<a href="https://ssc.nic.in/" target="_blank">SSC GD Result</a>
+
+<a href="https://www.rrbcdg.gov.in/" target="_blank">Railway NTPC Result</a>
+<a href="https://www.rrbcdg.gov.in/" target="_blank">Railway Group D Result</a>
+
+<a href="https://ibps.in/" target="_blank">IBPS PO Result</a>
+<a href="https://ibps.in/" target="_blank">IBPS Clerk Result</a>
+
+<a href="https://nta.ac.in/" target="_blank">UGC NET Result</a>
+<a href="https://nta.ac.in/" target="_blank">CUET Result</a>
+
 <a href="https://ctet.nic.in/" target="_blank">CTET Result</a>
+
+<a href="https://uppbpb.gov.in/" target="_blank">UP Police Result</a>
+
+<a href="https://www.upsc.gov.in/" target="_blank">UPSC Result</a>
+
+<a href="https://biharboardonline.bihar.gov.in/" target="_blank">Bihar Board Result</a>
+
 </div>
 
+<!-- ADMISSIONS -->
 <div class="card">
 <h2>Admissions</h2>
-<a href="https://neet.nta.nic.in/" target="_blank">NEET</a>
-<a href="https://jeemain.nta.nic.in/" target="_blank">JEE</a>
-<a href="https://cuet.samarth.ac.in/" target="_blank">CUET</a>
-</div>
+
+<a href="https://neet.nta.nic.in/" target="_blank">NEET UG 2026</a>
+<a href="https://jeemain.nta.nic.in/" target="_blank">JEE Main 2026</a>
+<a href="https://jeeadv.ac.in/" target="_blank">JEE Advanced</a>
+
+<a href="https://cuet.samarth.ac.in/" target="_blank">CUET UG/PG</a>
+
+<a href="https://nta.ac.in/" target="_blank">NTA All Exams</a>
+
+<a href="https://upbed.nic.in/" target="_blank">UP B.Ed Admission</a>
+
+<a href="https://biharboardonline.bihar.gov.in/" target="_blank">Bihar Board Admission</a>
+
+<a href="https://www.du.ac.in/" target="_blank">Delhi University Admission</a>
+
+<a href="https://www.ignou.ac.in/" target="_blank">IGNOU Admission</a>
+
+<a href="https://www.amity.edu/" target="_blank">Private University Admission</a>
 
 </div>
+
 </div>
-
-<!-- PRIVATE JOBS LONG -->
-<div class="long-section">
-<h2>Private Jobs (Latest Hiring)</h2>
-<p>Yaha aapko latest private sector jobs milenge jaise IT, Banking, Company jobs etc.</p>
-
-<a href="https://www.naukri.com/" target="_blank">Naukri.com Jobs</a><br>
-<a href="https://www.indeed.com/" target="_blank">Indeed Jobs</a><br>
-<a href="https://www.linkedin.com/jobs/" target="_blank">LinkedIn Jobs</a><br>
-
-<p>Top companies hiring now: TCS, Infosys, Wipro, HDFC Bank, Amazon, Flipkart.</p>
-
-<a class="btn" href="https://www.naukri.com/" target="_blank">Apply Now</a>
-</div>
-
-<!-- YOJANA SECTION -->
-<div class="long-section">
-<h2>Sarkari Yojana (Government Schemes)</h2>
-
-<p>India government ki sabhi latest schemes yaha available hain:</p>
-
-<a href="https://pmaymis.gov.in/" target="_blank">PM Awas Yojana</a><br>
-<a href="https://pmkisan.gov.in/" target="_blank">PM Kisan Yojana</a><br>
-<a href="https://eshram.gov.in/" target="_blank">E Shram Card</a><br>
-<a href="https://ujjwala.pmuy.gov.in/" target="_blank">Ujjwala Yojana</a><br>
-<a href="https://nrega.nic.in/" target="_blank">MGNREGA</a><br>
-
-<p>In schemes ka benefit directly citizens ko milta hai.</p>
-
-<a class="btn" href="#">Check All Schemes</a>
 </div>
 
 <footer>
-© 2026 Gov Info With Shivam
+© 2026 Gov Info With Shivam | All Rights Reserved
 </footer>
 
 </body>
