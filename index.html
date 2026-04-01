@@ -24,18 +24,20 @@ body {
 
 .container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
   padding: 20px;
-  flex-wrap: wrap;
 }
 
 .card {
   background: #fff;
-  width: 300px;
+  width: 320px;
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-height: 400px;
+  overflow-y: auto;
 }
 
 .card h2 {
@@ -57,33 +59,18 @@ body {
 
 .section {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  flex-wrap: wrap;
   padding: 20px;
 }
 
 .box {
   background: #fff;
-  width: 300px;
+  width: 320px;
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-.box h3 {
-  margin-bottom: 10px;
-}
-
-.box a {
-  display: block;
-  padding: 5px;
-  text-decoration: none;
-  color: black;
-}
-
-.box a:hover {
-  color: green;
 }
 
 .footer {
@@ -101,65 +88,99 @@ body {
 ROJGAR PORTAL – Sarkari Job | Result | Admit Card | Yojana
 </div>
 
-<!-- TOP CARDS -->
+<!-- MAIN JOB CARDS -->
 <div class="container">
 
 <div class="card">
-<h2>Sarkari Jobs</h2>
-<a href="#">SSC CGL 2026</a>
+<h2>Sarkari Jobs (India)</h2>
+
+<a href="#">SSC CGL 2026 Recruitment</a>
 <a href="#">SSC CHSL Vacancy</a>
-<a href="#">Railway Group D</a>
-<a href="#">RRB NTPC</a>
-<a href="#">UP Police</a>
-<a href="#">Indian Army</a>
+<a href="#">SSC GD Constable</a>
+<a href="#">Railway Group D Vacancy</a>
+<a href="#">RRB NTPC Recruitment</a>
+<a href="#">IBPS PO / Clerk</a>
+<a href="#">SBI Clerk / PO</a>
+<a href="#">UP Police Constable</a>
+<a href="#">UP SI Vacancy</a>
+<a href="#">Delhi Police</a>
+<a href="#">Bihar Police</a>
+<a href="#">Indian Army Recruitment</a>
+<a href="#">Indian Navy Jobs</a>
+<a href="#">Air Force Vacancy</a>
+<a href="#">UPSC Civil Services</a>
+<a href="#">UPSC NDA / CDS</a>
+<a href="#">BPSC Jobs</a>
+<a href="#">State Govt Jobs</a>
+<a href="#">Teaching Jobs (TET/CTET)</a>
+<a href="#">Anganwadi Vacancy</a>
+
 </div>
 
 <div class="card">
 <h2>Results</h2>
-<a href="#">SSC Result</a>
-<a href="#">Railway Result</a>
-<a href="#">IBPS Result</a>
-<a href="#">UGC NET</a>
-<a href="#">CTET</a>
+
+<a href="#">SSC CGL Result</a>
+<a href="#">SSC CHSL Result</a>
+<a href="#">SSC GD Result</a>
+<a href="#">Railway NTPC Result</a>
+<a href="#">Railway Group D Result</a>
+<a href="#">IBPS PO Result</a>
+<a href="#">IBPS Clerk Result</a>
+<a href="#">UGC NET Result</a>
+<a href="#">CUET Result</a>
+<a href="#">CTET Result</a>
+<a href="#">UP Police Result</a>
+<a href="#">UPSC Result</a>
+<a href="#">Bihar Board Result</a>
+
 </div>
 
 <div class="card">
 <h2>Admissions</h2>
-<a href="#">NEET UG</a>
-<a href="#">JEE Main</a>
-<a href="#">CUET</a>
-<a href="#">Delhi University</a>
-<a href="#">IGNOU</a>
-</div>
+
+<a href="#">NEET UG 2026</a>
+<a href="#">JEE Main 2026</a>
+<a href="#">JEE Advanced</a>
+<a href="#">CUET UG/PG</a>
+<a href="#">NTA All Exams</a>
+<a href="#">UP B.Ed Admission</a>
+<a href="#">Bihar Board Admission</a>
+<a href="#">Delhi University Admission</a>
+<a href="#">IGNOU Admission</a>
+<a href="#">Private University Admission</a>
 
 </div>
 
-<!-- NEW SECTION -->
+</div>
+
+<!-- EXTRA SECTIONS -->
 <div class="section">
 
-<!-- PRIVATE JOBS -->
 <div class="box">
-<h3 style="color:blue;">Private Jobs</h3>
+<h3 style="color:blue;">Private Jobs (All India)</h3>
 <a href="https://www.naukri.com/" target="_blank">Naukri Jobs</a>
 <a href="https://www.indeed.com/" target="_blank">Indeed Jobs</a>
 <a href="https://www.linkedin.com/jobs/" target="_blank">LinkedIn Jobs</a>
 <a href="https://www.freshersworld.com/" target="_blank">Freshers Jobs</a>
+<a href="#">Work From Home Jobs</a>
+<a href="#">Part Time Jobs</a>
 </div>
 
-<!-- KISAN -->
 <div class="box">
 <h3 style="color:green;">Kisan Yojana</h3>
-<a href="https://pmkisan.gov.in/" target="_blank">PM Kisan</a>
-<a href="https://pmfby.gov.in/" target="_blank">Fasal Bima</a>
-<a href="https://agricoop.nic.in/" target="_blank">Agriculture Dept</a>
+<a href="https://pmkisan.gov.in/" target="_blank">PM Kisan Samman Nidhi</a>
+<a href="https://pmfby.gov.in/" target="_blank">Fasal Bima Yojana</a>
+<a href="https://agricoop.nic.in/" target="_blank">Agriculture Department</a>
 <a href="https://mkisan.gov.in/" target="_blank">Kisan Portal</a>
+<a href="#">Subsidy Schemes</a>
 </div>
 
-<!-- RECHARGE -->
 <div class="box">
 <h3 style="color:orange;">Free Recharge</h3>
-<a href="https://example.com/gpay" target="_blank">GPay Free Recharge</a>
-<a href="https://example.com/paytm" target="_blank">Paytm Cashback</a>
+<a href="#">GPay Free Recharge</a>
+<a href="#">Paytm Cashback</a>
+<a href="#">PhonePe Offer</a>
 </div>
 
 </div>
